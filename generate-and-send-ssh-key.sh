@@ -27,10 +27,10 @@ function usage() {
     exit 2
 }
 
-if [[ $# < 1 ]]
-then
-	usage
-fi
+# if [[ $# < 1 ]]
+# then
+# 	usage
+# fi
 
 while [[ $# > 0 ]]
 do
