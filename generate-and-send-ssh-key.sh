@@ -3,7 +3,7 @@
 # these are the defaults for the commandline-options
 KEYSIZE=4096
 PASSPHRASE=
-FILENAME=~/.ssh/id_test
+FILENAME=~/.ssh/id_rsa
 KEYTYPE=rsa
 HOST=${HOSTNAME}
 USER=${USER}
