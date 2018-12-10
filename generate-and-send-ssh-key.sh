@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # these are the defaults for the commandline-options
-KEYSIZE=2048
+KEYSIZE=4096
 PASSPHRASE=
 FILENAME=~/.ssh/id_test
 KEYTYPE=rsa
-HOST=host
+HOST=${HOSTNAME}
 USER=${USER}
 
 # use "-p <port>" if the ssh-server is listening on a different port
